@@ -16,3 +16,5 @@ spec:
    - name: c1
      image: gauravkumar9130/argoimage
      imagePullPolicy: Always
+     stdin: true
+     tty: true
