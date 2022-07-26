@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
  name: myapp
- namespace: argoapp
 spec:
  replicas: 2
  template:
@@ -12,5 +11,5 @@ spec:
   spec: 
    containers:
    - name: c1
-     image: quay.io/gauravkumar9130
+     image: gauravkumar9130/argoimage
      imagePullPolicy: Always
